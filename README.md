@@ -17,4 +17,6 @@ Creators
 
 How to Download
 -
--
+- if you want
+- on the right of the screen
+- From the "Releases" Button, select from "branches" if you wish
