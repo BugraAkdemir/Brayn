@@ -3,6 +3,7 @@
 - The Project Named Brayn Started Development on 9.04.2024
 - The Purpose of the Project is to Keep Most Applications on a Single Project
 - This Project Started to Be Written in C# Language
+- on your computer to use the application Google Chrome Must Be Installed
 
 Creators
 -
