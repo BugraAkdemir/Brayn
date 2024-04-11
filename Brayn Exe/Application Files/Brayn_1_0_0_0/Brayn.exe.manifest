@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Brayn.exe" version="1.0.0.0" publicKeyToken="f615d4cd004c1cf6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Brayn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Brayn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Brayn.exe" size="2729952">
+      <assemblyIdentity name="Brayn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f0lPWqc7e0DGoUrPtKQgAe9h/13+pwF59aDlz6VvjzE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MessagingToolkit.QRCode.dll" size="6197248">
+      <assemblyIdentity name="MessagingToolkit.QRCode" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NYQPXjB7HvZTQKkfS/usUlrAxsSq3Z1TYT6yx1CN0kU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Brayn.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-9MLTB6EU\bugra" issuerKeyHash="7fca53258e63c984b7b4ec66d84c5597c10803e5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vYEr0uEB6WqdQkSk4csCkKs7++FRg/siGNrve9weGFQ=</DigestValue></Reference></SignedInfo><SignatureValue>JU4z7mx+F8DTiokqOtO2CxSaPUmjtc1RvnKY479ful4Ckn0/uChDluW/kUqvjyiGS9toqYnaeWEEX4vF/p2SVYJx6gKX+sc68tlvqhivXFHa6JkztowwZ4ffIOFztbmYhm4K0gq73y8RaQ1if4Yd24cKEwp9rEDAqWZiIaGwDEc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m94L1hiGo7DIQ0+IIwmMbTcU6esDfr4UQIPuLRnuBfP6aF7ejCFIK+FDi+rCh9qB7TUPyaKPMv6kR7WqFXFM/H4Q9Lxklfc+QQveccnTlfDqzGlFz8AOWWo+Uq7upnM1HHxKW31dJQCisYUEbpetPJ8qRVL4Z2kac4zc/aHt4lk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="54181edc7befda1822fb8351e1fb3bab9002cbe1a444429d6ae901e1d22b81bd" Description="" Url=""><as:assemblyIdentity name="Brayn.exe" version="1.0.0.0" publicKeyToken="f615d4cd004c1cf6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-9MLTB6EU\bugra</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Nn9gHLtboUwlmKBAoEDXlgRBjc0XQgBOd9pQr6KHKSc=</DigestValue></Reference></SignedInfo><SignatureValue>PWR7yWeiPFjV51jK92wz0ugcdPtXl6Nmmz003zTYksdbS4eCgiaHZ3PkLKxMSOGem/cjiTyVgZH0CweUqEOiEpjjdQrmxKBY11iEJn+x//9ams5D3byd4AwN+H2H9Vg+zOa0/RiyjMhqM6W1E6kAG6e1bCZdEcsJdTkMBZwSnjc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m94L1hiGo7DIQ0+IIwmMbTcU6esDfr4UQIPuLRnuBfP6aF7ejCFIK+FDi+rCh9qB7TUPyaKPMv6kR7WqFXFM/H4Q9Lxklfc+QQveccnTlfDqzGlFz8AOWWo+Uq7upnM1HHxKW31dJQCisYUEbpetPJ8qRVL4Z2kac4zc/aHt4lk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQOw39gTzet5tJOs6DLXNJ4DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA5AE0ATABUAEIANgBFAFUAXABiAHUAZwByAGEwHhcNMjQwNDEwMjMzODQ5WhcNMjUwNDExMDUzODQ5WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA5AE0ATABUAEIANgBFAFUAXABiAHUAZwByAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJveC9YYhqOwyENPiCMJjG03FOnrA36+FECD7i0Z7gXz+mhe3owhSCvhQ4vqwofage01D8mijzL+pEe1qhVxTPx+EPS8ZJX3PkEL3nHJ05Xw6sxpRc/ADllqPlKu7qZzNRx8Slt9XSUAorGFBG6XrTyfKkVS+GdpGnOM3P2h7eJZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZ3cUh4hS5SGxzm4vKptYrhbg6pOa4jWQrg6xPAmt2Z1tGvBbmcleqXi8OhFaPCJUuXHca0fXjponwRiUP+9OZz+3CO/MiwejEwdLNF6vyi5PWS6y3VjWiHkqbf7SfdfGMkRb2RDBZx10r25IAeuThJuIVdAWy4ptm2eVH8SWA3k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
