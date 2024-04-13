@@ -52,3 +52,12 @@ D:\B-C#\Brayn\Brayn\bin\Debug\System.Linq.Async.xml
 D:\B-C#\Brayn\Brayn\bin\Debug\System.Reactive.xml
 D:\B-C#\Brayn\Brayn\obj\Debug\Brayn.dosya_dow.resources
 D:\B-C#\Brayn\Brayn\obj\Debug\Brayn.dc_webhoohk.resources
+D:\B-C#\Brayn\Brayn\obj\Debug\Brayn.kayit_ol.resources
+D:\B-C#\Brayn\Brayn\obj\Debug\Brayn.login.resources
+D:\B-C#\Brayn\Brayn\bin\Debug\CliWrap.dll
+D:\B-C#\Brayn\Brayn\bin\Debug\YoutubeExplode.Converter.dll
+D:\B-C#\Brayn\Brayn\bin\Debug\YoutubeExplode.dll
+D:\B-C#\Brayn\Brayn\bin\Debug\CliWrap.xml
+D:\B-C#\Brayn\Brayn\bin\Debug\YoutubeExplode.xml
+D:\B-C#\Brayn\Brayn\bin\Debug\YoutubeExplode.Converter.xml
+D:\B-C#\Brayn\Brayn\obj\Debug\Brayn.Form2.resources

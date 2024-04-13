@@ -65,6 +65,9 @@
     <Reference Include="AngleSharp, Version=1.1.2.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
       <HintPath>..\packages\AngleSharp.1.1.2\lib\net472\AngleSharp.dll</HintPath>
     </Reference>
+    <Reference Include="CliWrap, Version=3.6.6.0, Culture=neutral, PublicKeyToken=1c4a4fc2d6886e5a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CliWrap.3.6.6\lib\net462\CliWrap.dll</HintPath>
+    </Reference>
     <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
     </Reference>
@@ -91,6 +94,7 @@
     <Reference Include="System.Linq.Async, Version=6.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Linq.Async.6.0.1\lib\netstandard2.0\System.Linq.Async.dll</HintPath>
     </Reference>
+    <Reference Include="System.Management" />
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
     </Reference>
@@ -130,6 +134,12 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
+    <Reference Include="YoutubeExplode, Version=6.3.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YoutubeExplode.6.3.13\lib\net461\YoutubeExplode.dll</HintPath>
+    </Reference>
+    <Reference Include="YoutubeExplode.Converter, Version=6.3.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YoutubeExplode.Converter.6.3.13\lib\net461\YoutubeExplode.Converter.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dosya_dow.cs">
@@ -143,6 +153,24 @@
     </Compile>
     <Compile Include="dc_webhoohk.Designer.cs">
       <DependentUpon>dc_webhoohk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayit_ol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayit_ol.Designer.cs">
+      <DependentUpon>kayit_ol.cs</DependentUpon>
     </Compile>
     <Compile Include="qr_code.cs">
       <SubType>Form</SubType>
@@ -169,6 +197,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dc_webhoohk.resx">
       <DependentUpon>dc_webhoohk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayit_ol.resx">
+      <DependentUpon>kayit_ol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hesap_makinası.resx">
       <DependentUpon>hesap_makinası.cs</DependentUpon>
@@ -230,6 +267,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\discordBackraound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vERSION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KAYITOL.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

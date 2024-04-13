@@ -21,6 +21,7 @@ namespace Brayn
         private void main_Load(object sender, EventArgs e)
         {
             instagramLinkLabel.LinkClicked += new LinkLabelLinkClickedEventHandler(linkLabel1_LinkClicked);
+            
 
             versionLabel.Text = vrsion;
         }
@@ -104,5 +105,32 @@ namespace Brayn
 
             this.Hide();
         }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //google choromun yolu
+            string chromePath = @"C:\Program Files\Google\Chrome\Application\chrome.exe";
+
+            string link = "https://www.instagram.com/duhan.bc/";
+
+            string browserPath = chromePath;
+
+
+            // Belirtilen linki tarayıcıyla aç
+            System.Diagnostics.Process.Start(browserPath, link);
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            login a = new login();
+            a.Show();
+            this.Hide();
+        }
+
+        //
+        //Git Hub LinkLabel
+        //
+
     }
+    
 }

@@ -54,14 +54,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Brayn.exe" size="4840416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Brayn.exe" size="5723104">
       <assemblyIdentity name="Brayn" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>05p5JorHppXahmjX2Om/D6UjFOclfY/T8F7wuYV4JAo=</dsig:DigestValue>
+        <dsig:DigestValue>EhSNqewbn+OkKT4yb+ICeI2/HUwiJv03omQZq8o0Kwg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CliWrap.dll" size="200704">
+      <assemblyIdentity name="CliWrap" version="3.6.6.0" publicKeyToken="1C4A4FC2D6886E5A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9DC7EkThiia57usOUc0stnR/61IjZZO/uAhQBPrn0Ek=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -269,13 +281,37 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Brayn.exe.config" size="2794">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoutubeExplode.dll" size="318976">
+      <assemblyIdentity name="YoutubeExplode" version="6.3.13.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SI2z0cs+sEz4LhGqhsdjt1wdyCWOXBuNzLoE2e1YD9M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoutubeExplode.Converter.dll" size="158208">
+      <assemblyIdentity name="YoutubeExplode.Converter" version="6.3.13.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ePy+972P3kZahKyiQH00M/nm5aW2OVcMqoD63gGWV1U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Brayn.exe.config" size="3025">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qJpKDkbV5RnuaImw4i2QVyLc0tH4vFWc7pXL+422ntc=</dsig:DigestValue>
+      <dsig:DigestValue>0u/cbQfWxecCfPNMjyQDWn4ZxD1iXjYrA3I9fEwZ86E=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
