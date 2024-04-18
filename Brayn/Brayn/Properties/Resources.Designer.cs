@@ -83,9 +83,39 @@ namespace Brayn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Giris {
+            get {
+                object obj = ResourceManager.GetObject("Giris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap girişBackraund {
             get {
                 object obj = ResourceManager.GetObject("girişBackraund", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hakkımda {
+            get {
+                object obj = ResourceManager.GetObject("Hakkımda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KAYITOL {
+            get {
+                object obj = ResourceManager.GetObject("KAYITOL", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +136,36 @@ namespace Brayn.Properties {
         internal static System.Drawing.Bitmap mainBackraund_v_1_1 {
             get {
                 object obj = ResourceManager.GetObject("mainBackraund_v.1.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Şifre_Kaydet {
+            get {
+                object obj = ResourceManager.GetObject("Şifre Kaydet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap şifre_kayıt {
+            get {
+                object obj = ResourceManager.GetObject("şifre kayıt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vERSION {
+            get {
+                object obj = ResourceManager.GetObject("vERSION", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
