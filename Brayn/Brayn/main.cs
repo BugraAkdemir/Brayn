@@ -12,7 +12,7 @@ namespace Brayn
 {
     public partial class main : Form
     {
-        private string vrsion = "v2.8.9"; 
+        private string vrsion = "v4.5"; 
 
         public main()
         {
