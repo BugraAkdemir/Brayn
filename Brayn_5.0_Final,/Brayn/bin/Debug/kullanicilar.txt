@@ -1,7 +1,0 @@
-//-------------------------Defult Password------------------------------
-admin,admin
-brayn,admin
-admin,brayn
-admin,zylles
-//-------------------------------Users Password--------------------------
-
